@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int isVowel(char ch)
+bool isVowel(char ch)
 {
     string str = "aeiouAEIOU";
     return (str.find(ch) != string::npos);
@@ -14,7 +14,7 @@ int main()
     char c;
     cin >> c;
 
-    if (c == 'a' || c == 'A' || c == 'e' 
+    if (c == 'a' || c == 'A' || c == 'e'
         || c == 'E' || c == 'i' || c == 'I'
         || c == 'o' || c == 'O' || c == 'u'
         || c == 'U')
