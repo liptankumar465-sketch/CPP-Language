@@ -15,7 +15,7 @@ int main()
 
     for (row = 1; row <= num; row++){
         for (col = 1; col <= row; col++){
-            cout << "* ";
+            cout << "*";
         }
         cout<<endl;
     }
