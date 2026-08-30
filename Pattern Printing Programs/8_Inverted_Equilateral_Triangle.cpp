@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // Inverted Equilateral triangle
     int row, col, n;
     printf("Enter the num:- ");
     cin >> n;
